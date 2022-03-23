@@ -1,0 +1,64 @@
+.section-a{
+	grid-area: section-a;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+.section-b{
+	grid-area: section-b;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+.section-c{
+	grid-area: section-c;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	button{
+		margin-top: 1rem;
+	}
+}
+
+.section-a__photo{
+	grid-area:section-a__photo;
+}
+.section-b__photo{
+	grid-area:section-b__photo;
+}
+.section-c__photo{
+	grid-area:section-c__photo;
+}
+.section-d__photo{
+	grid-area:section-d__photo;
+}
+.section-e__photo{
+	grid-area:section-e__photo;
+}
+.section-f__photo{
+	grid-area:section-f__photo;
+}
+.perfumes, .food, .location{
+	width: 300px;
+	height: 300px;
+	box-shadow: 17px 22px 10px 10px rgba(30,30,60,0.40);
+}
+.section-a__photo, .section-b__photo, .section-c__photo, .section-d__photo, .section-e__photo, .section-f__photo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #f5f5f5;
+}

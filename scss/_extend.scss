@@ -1,0 +1,20 @@
+section-a{
+	margin: 0.3rem;
+	padding: 0.3rem;
+}
+
+section-b, section-c, h2, p{
+	@extend section-a;
+	margin: margin;
+	padding:padding;
+}
+
+label{
+	font-weight: bold;
+	display: inline-grid;
+}
+.contact{
+	@extend label;
+	font-weight: font-weight;
+	display: display;
+}

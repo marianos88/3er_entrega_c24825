@@ -1,0 +1,166 @@
+/*MEDIA QUERIE PARA CELULARES*/
+@media only screen and (max-width: 768px){
+	.container{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 150px 350px 200px 200px 200px 150px;
+		grid-auto-flow: row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero"
+		"section-a"
+		"section-b"
+		"section-c"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.hero h1{
+		color: white;
+		font-size: 1.5rem;
+		text-shadow: 1px 2px 1px black;
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	h2{
+		font-size: 16px;
+	}
+	.container__photo{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 150px 350px 350px 350px	350px 350px 350px 350px 150px;
+		grid-auto-flow: row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero__photo"
+		"section-a__photo"
+		"section-b__photo"
+		"section-c__photo"
+		"section-d__photo"
+		"section-e__photo"
+		"section-f__photo"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.hero__photo h1{
+		color: white;
+		font-size: 2rem;
+		text-shadow: 1px 2px 1px black;
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.hero__ux-ui h1{
+		color: white;
+		font-size: 2rem;
+		text-shadow: 1px 2px 1px black;
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.hero__web-design h1{
+		color: white;
+		font-size: 2rem;
+		text-shadow: 1px 2px 1px black;
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.hero__contact-us h1{
+		color: white;
+		font-size: 3rem;
+		text-shadow: 1px 2px 1px black;
+	}
+	.container__contact{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 150px 350px 450px 150px;
+		grid-auto-flow: row;
+		grid-auto-columns: 1fr;
+		grid-template-areas:
+		"header"
+		"hero"
+		"section-a"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+}
+// ---------------------------------------------------------------------------------------
+/*MEDIA QUERIE PARA TABLETS*/
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+	.container{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 150px 450px 200px 200px	200px 150px;
+		grid-auto-flow: row;
+		grid-auto-columns: 1fr;
+		grid-template-areas: 
+		"header"
+		"hero"
+		"section-a"
+		"section-b"
+		"section-c"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+	.hero h1{
+		color: white;
+		font-size: 2rem;
+		text-shadow: 1px 2px 1px black;
+		text-align: center;
+	}
+	.hero__photo h1{
+		color: white;
+		font-size: 3rem;
+		text-shadow: 1px 2px 1px black;
+	}
+	h2{
+		font-size: 20px;
+	}
+	.hero__ux-ui h1{
+		color: white;
+		font-size: 3rem;
+		text-shadow: 1px 2px 1px black;
+	}
+	.hero__web-design h1{
+		color: white;
+		font-size: 3rem;
+		text-shadow: 1px 2px 1px black;
+	}
+	.hero__contact-us h1{
+		color: white;
+		font-size: 3rem;
+		text-shadow: 1px 2px 1px black;
+	}	
+	.container__photo{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 150px 350px 450px 450px	450px 450px 450px 450px 150px;
+		grid-auto-flow: row;
+		grid-auto-columns: 1fr;
+		grid-template-areas: 
+		"header"
+		"hero__photo"
+		"section-a__photo"
+		"section-b__photo"
+		"section-c__photo"
+		"section-d__photo"
+		"section-e__photo"
+		"section-f__photo"
+		"footer"
+		;
+		width: 100%;
+		height: 100%;
+	}
+}
+

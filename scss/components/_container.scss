@@ -1,0 +1,49 @@
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 150px 600px 400px 150px;
+	grid-auto-flow: row;
+	grid-auto-columns: 1fr;
+	grid-template-areas:
+	"header header header"
+	"hero hero hero"
+	"section-a section-b section-c"
+	"footer footer footer"
+	;
+	width: 100%;
+	height: 100%;
+}
+.container__photo{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 150px 500px 450px 450px 150px;
+	grid-auto-flow: row;
+	grid-auto-columns: 1fr;
+	grid-template-areas:
+	"header header header"
+	"hero__photo hero__photo hero__photo"
+	"section-a__photo section-b__photo section-c__photo"
+	"section-d__photo section-e__photo section-f__photo"
+	"footer footer footer"
+	;
+	width: 100%;
+	height: 100%;
+}
+.container__contact{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 150px 500px 600px 150px;
+	grid-auto-flow: row;
+	grid-auto-columns: 1fr;
+	grid-template-areas: "header header header"
+	"hero hero hero"
+	"section-a__contact section-a__contact section-a__contact"
+	"footer footer footer"
+	;
+	width: 100%;
+	height: 100%;
+}
+.form{
+	margin: 1rem 1rem;
+	padding: 0.5rem 1rem;
+}

@@ -1,0 +1,23 @@
+$estilos:(
+	btnColor:white,
+	border-radius:5px,
+	bgColor:#003285,
+	h1Color: white,
+	h1fontSize: 3rem,
+	h1TextShadow: 1px 2px 1px rgb(102, 102, 102),
+	h1TextAlign: center,
+	h1Margin: 1rem,
+	);
+
+button{
+	color:map-get($estilos,btnColor);
+	border-radius:map-get($estilos,border-radius);
+	background:map-get($estilos,bgColor);
+}
+h1{
+	color:map-get($estilos,h1Color);
+	font-size:map-get($estilos,h1fontSize);
+	text-shadow:map-get($estilos,h1TextShadow);
+	text-align:map-get($estilos,h1TextAlign);
+	margin:map-get($estilos,h1Margin);
+}
